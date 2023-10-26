@@ -1,8 +1,8 @@
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <div className="text-5xl">Home</div>
   )
 }
 
-export default page
+export default Home
