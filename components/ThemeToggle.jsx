@@ -37,7 +37,7 @@ const ThemeToggle = () => {
             ></div>
             <BsSunFill
                 className="ml-auto text-yellow-400"
-                size={18}
+                size={20}
             />
         </div>
     );

@@ -11,4 +11,4 @@ const useMenuActive = (route) => {
     return isActive;
 };
 
-export default useMenuActive;
+export default useMenuActive; 
