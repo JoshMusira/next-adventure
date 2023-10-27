@@ -4,13 +4,14 @@ import { BsArrowRightShort } from "react-icons/bs";
 const PostsCard = ({ post, index }) => {
     return (
         <Link
+            key={index}
             href={{
                 pathname: `blog/${post.id}`,
                 query: { ...post },
             }}
         >
             <div
-                key={index}
+                key={post.id}
                 className="dark:bg-dark rounded-sm overflow-hidden shadow-xl"
             >
                 <div className="w-full flex">
