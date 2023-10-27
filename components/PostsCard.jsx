@@ -50,8 +50,10 @@ const PostsCard = ({ post, index }) => {
                             <span>5 min read</span>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </Link>
     );
 };
