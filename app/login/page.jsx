@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>
+        <div className=' bg-gray-500'>
             <div class="flex flex-col items-center justify-center h-screen dark">
                 <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
                     <h2 class="text-2xl font-bold text-gray-200 mb-4">Login</h2>
@@ -15,7 +15,7 @@ const page = () => {
                                 Remember me
                             </label>
                             <a class="text-sm text-blue-500 hover:underline mb-0.5" href="#">Forgot password?</a>
-                            <p class="text-white mt-4"> Don't have an account? <a class="text-sm text-blue-500 -200 hover:underline mt-4" href="#">Signup</a></p>
+                            <p class="text-white mt-4"> Don't have an account? <a class="text-sm text-blue-500 -200 hover:underline mt-4" href="/signup">Signup</a></p>
                         </div>
                         <button class="bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-indigo-600 hover:to-blue-600 transition ease-in-out duration-150" type="submit">Login</button>
 

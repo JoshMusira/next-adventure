@@ -10,9 +10,9 @@ const TopMostHero = ({ post }) => {
                 query: { ...post },
             }}
         >
-            <div className="relative overflow-hidden w-full">
-                <div className="absolute h-full w-full bg-black/20" />
-                <div className="absolute p-5 w-full h-full">
+            <div className="relative overflow-hidden w-full z-0">
+                <div className="absolute h-full w-full bg-black/20 z-0" />
+                <div className="absolute p-5 w-full h-full z-0">
                     <div className="flex flex-col justify-between h-full">
                         <div>
                             <h2 className="text-white text-3xl font-bold mb-2 px-1">
@@ -30,7 +30,7 @@ const TopMostHero = ({ post }) => {
                 <Image
                     src={post.image_url}
                     alt="blog picture"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover z-0"
                     height={400}
                     width={400}
                 />
