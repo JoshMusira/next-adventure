@@ -39,6 +39,11 @@ const Navbar = () => {
                     <ThemeToggle />
                     <MobileMenu />
                 </div>
+                <div className="w-[40px] h-[40px] sm:w-[45px] sm:h-[45px] md:w-[50px] md:h-[50px] ml-4  cursor-pointer">
+                    <img
+                        className="object-cover object-center "
+                        src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png" alt="" />
+                </div>
             </div>
         </nav>
     );
