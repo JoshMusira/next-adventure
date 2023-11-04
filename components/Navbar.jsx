@@ -49,33 +49,31 @@ const Navbar = () => {
                     onClick={() => setLogin(!login)}
                     className=" w-[40px] h-[40px] sm:w-[45px] sm:h-[45px] md:w-[50px] md:h-[50px] ml-4 cursor-pointer"
                 >
-                    {/* {
-                        token ? <img src="https://cdn-icons-png.flaticon.com/128/3177/3177440.png" alt="Profile Pic" /> : <img
+                    {
+                        token ? <img src="https://cdn-icons-png.flaticon.com/128/3177/3177440.png" alt="Profile Pic" /> : <Link href={'/login'}><img
                             className="object-cover object-center"
-                            src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png" alt="Profile Pic" />
+                            src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png" alt="Profile Pic" /></Link>
                     }
 
-                    {
+                    {/* {
                         (!token && login) && <Profile />
                     }
                     {
                         (token && login) && <div className=""><Link href={'/profile'}><h4>Profile</h4></Link></div>
                     } */}
-                    <div className="drawer drawer-end">
+                    {/* <div className="drawer drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-content">
-                            {/* Page content here */}
                             <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Open drawer</label>
                         </div>
                         <div className="drawer-side">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-                                {/* Sidebar content here */}
                                 <li><a>Sidebar Item 1</a></li>
                                 <li><a>Sidebar Item 2</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </nav>
